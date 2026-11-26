@@ -1,5 +1,7 @@
 # MitoConcord — Windows downloads
 
+**Version 0.13.3:** Definite effective conflicts from segments without open indel boundaries can establish incompatibility even when another segment has an unresolved boundary. The interface reports the guaranteed lower bound and marks unresolved indel alignments explicitly. Original variant notation remains accessible, and evaluable regions follow circular control-region order. CSV and Excel distinguish diagnostic totals from the guaranteed lower bound. Reconstruction and edit distance remain string-v1; the revised assessment rule is string-boundary-decision-v2. Confirmed string projects saved by this version require reader 0.13.3. Technical regression and native Windows checks passed; independent scientific validation remains pending.
+
 **Version 0.13.1:** New projects select string-based single-profile comparison. Confirm complete rCRS difference lists within coverage once in project settings; the saved confirmation is reused for mixture checks and directed graph relationships. Existing projects retain their saved method. Includes compact sequence alignment, reconstructed-sequence/FASTA export, mixtures shown by default with a single option to exclude them, and high-contrast graph cursors. String projects require a current MitoConcord version. Technical regression has passed; independent scientific validation of the new string method remains pending.
 
 Previously named **mtDNA Analyzer**.
