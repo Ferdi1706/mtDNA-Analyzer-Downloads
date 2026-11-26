@@ -19,3 +19,5 @@ This repository distributes application binaries and signed update metadata. It 
 Release assets: `MitoConcord.exe`, the identical compatibility asset `mtDNA_Analyzer_Desktop.exe`, `update.json` and `update.json.sig`. The signed manifest continues to reference the compatibility asset so previous versions can update. The application verifies the Ed25519 signature and executable SHA-256 before installation. Save active work before updating.
 
 Licensing is handled separately through Keygen, including periodic checks and time-limited signed offline access. This update process does not create Keygen release objects.
+
+For automatic replacement, run the portable EXE from a short local folder that you can write to. Very long Windows paths can prevent creation of the rollback filename.
