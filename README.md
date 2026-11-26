@@ -1,5 +1,7 @@
 # MitoConcord — Windows downloads
 
+**Version 0.13.1:** New projects select string-based single-profile comparison. Confirm complete rCRS difference lists within coverage once in project settings; the saved confirmation is reused for mixture checks and directed graph relationships. Existing projects retain their saved method. Includes compact sequence alignment, reconstructed-sequence/FASTA export, mixtures shown by default with a single option to exclude them, and high-contrast graph cursors. String projects require a current MitoConcord version. Technical regression has passed; independent scientific validation of the new string method remains pending.
+
 Previously named **mtDNA Analyzer**.
 
 [Download MitoConcord for Windows](https://github.com/Ferdi1706/mtDNA-Analyzer-Downloads/releases/latest/download/MitoConcord.exe)
